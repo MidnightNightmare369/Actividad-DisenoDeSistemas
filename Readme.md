@@ -84,7 +84,7 @@ A partir de la historia de la historia de usuario generada en la respuesta anter
 Analizado
 [....]
 Aquí tienes el diagrama de clases UML en formato .png para el sistema de registro de vehículos:
-📂 Descargar diagrama de clases UML - Registro de Vehículos (.png)
+    📂 Descargar diagrama de clases UML - Registro de Vehículos (.png)
 
 ¿Quieres que además lo exporte también en .jpg para que tengas ambas versiones?
 
@@ -141,7 +141,7 @@ He creado el prototipo en C# (.NET 8.0) y lo empaqué en un archivo ZIP listo pa
         
     -   `dotnet run`
         
-3.  Abre `https://localhost:5001/swagger/index.html` en tu navegador para usar Swagger UI y probar los endpoints.
+3.  Abre `https://localhost:5001/swagger/index.html` en tu navegador para usar Swagger UI y probar los endpoints. (Al momento de ejecutar 'dotnet run' verificar por que puerto esta saliendo y en caso de que sea necesario, cambiar el numero de puerto en el enlace)
     
 
 Si quieres que:
