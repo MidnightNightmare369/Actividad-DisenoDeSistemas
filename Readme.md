@@ -94,6 +94,7 @@ Aquí tienes el diagrama de clases UML en formato .png para el sistema de regist
 <img width="255" height="636" alt="uml_registro_vehiculos" src="https://github.com/user-attachments/assets/e1edd298-6a1e-44a0-8dcb-7362b178b692" />
 
 ---
+<<<<<<< HEAD
 
 #### Prompt #4
 Ahora genera el código para ser probado en Swagger correspondiente al diagrama generado con anterioridad. Hazlo en lenguaje C# usando el framework .NET 8.0 y enfocado a ser ejecutado en un IDE como Visual Studio 2022 o Visual Studio Code. Genera un archivo .zip para descargar donde este contenida la carpeta del proyecto. Piensa y analiza el tiempo que sea necesario.
@@ -162,3 +163,5 @@ Conclusiones
 ---
 
 El desarrollo del prototipo del sistema de registro de vehículos permitió aplicar un proceso completo de diseño con apoyo de IA generativa, desde la definición de la historia de usuario y los requerimientos, hasta la elaboración de diagramas UML y la implementación de un prototipo funcional en .NET 8 con Swagger. Este ejercicio evidenció cómo la integración de metodologías de análisis y herramientas modernas facilita la construcción de soluciones simples, claras y ejecutables en un entorno real de desarrollo.
+=======
+>>>>>>> refs/remotes/origin/main
