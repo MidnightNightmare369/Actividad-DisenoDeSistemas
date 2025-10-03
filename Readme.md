@@ -8,8 +8,8 @@ El tema del diseño es a libre elección (Ej: gestor de inventario, Entrada - sa
 
 ## Desarrollo
 
-Para el desarrollo de la actividad se uso Chat-GPT en su versión actual. 
-(Las respuestas completas de la IA dado que algunas son muy largas,  estas estarán completas en el archivo respuestas.txt)
+Para el desarrollo de la actividad se uso Chat-GPT en su versión actual, el proyecto fue probado y funciona correctamente. 
+Nota: Las secciones de codigo dada que son muy largas se marcan como [...], sin embargo dentro del archivo 'respuestas.txt' se encuentran las respuestas completas de la IA . 
 
 #### Prompt #1
 Actua como un ingeniero en sistemas experto en diseños de sistemas y software. Mi profesor de diseño de sistemas de informacion me dejo la siguiente tarea [Realizar un proceso de diseño de un prototipo mediante una IA generativa, en cual se genere la Historia de usuario, con la definición de requerimientos, con requisitos funcionales y no funcionales. Generar con la IA diagramas que considere para este proposito en UML y genere tambien el codigo. En lo posible que el prototipo diseñado pueda correr en un IDE. El tema del diseño es a libre elección (Ej: gestor de inventario, Entrada - salida; Sistema de presupuesto de servicio; un sistema de adopción de mascotas etc.]. Ten en cuenta esta tarea e indicaciones para los prompts que vienen a continuación. Indicaciones: Mantenlo simple.
@@ -158,3 +158,7 @@ Si quieres que:
 dime y lo hago.
 
 ---
+Conclusiones
+---
+
+El desarrollo del prototipo del sistema de registro de vehículos permitió aplicar un proceso completo de diseño con apoyo de IA generativa, desde la definición de la historia de usuario y los requerimientos, hasta la elaboración de diagramas UML y la implementación de un prototipo funcional en .NET 8 con Swagger. Este ejercicio evidenció cómo la integración de metodologías de análisis y herramientas modernas facilita la construcción de soluciones simples, claras y ejecutables en un entorno real de desarrollo.
