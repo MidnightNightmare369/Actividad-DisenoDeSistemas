@@ -60,13 +60,16 @@ Para mantener actualizado el inventario de la flota y poder gestionarlos en los 
 
 Criterios de Aceptación
 
-El sistema debe permitir ingresar datos obligatorios del vehículo: placa, marca, modelo, año, estado (disponible, en mantenimiento, alquilado) y tipo (automóvil, camioneta, motocicleta, etc.).
 
-El sistema debe validar que la placa no esté repetida dentro de la base de datos.
+### Criterios de Aceptación
 
-Al completar el registro, el vehículo debe quedar disponible en la lista de flota activa.
-
-El sistema debe permitir consultar y editar posteriormente la información registrada del vehículo.
+1.  El sistema debe permitir ingresar datos obligatorios del vehículo: placa, marca, modelo, año, estado (disponible, en mantenimiento, alquilado) y tipo (automóvil, camioneta, motocicleta, etc.).
+    
+2.  El sistema debe validar que la placa no esté repetida dentro de la base de datos.
+    
+3.  Al completar el registro, el vehículo debe quedar disponible en la lista de flota activa.
+    
+4.  El sistema debe permitir consultar y editar posteriormente la información registrada del vehículo.
 
 ¿Quieres que te siga generando los requerimientos funcionales y no funcionales para este mismo sistema de registro de vehículos?
 
@@ -88,6 +91,70 @@ Aquí tienes el diagrama de clases UML en formato .png para el sistema de regist
 ---
 **Imagen entregada:**
 
-![Diagrama UML](https://postimg.cc/qgwQQ8S3)
+<img width="255" height="636" alt="uml_registro_vehiculos" src="https://github.com/user-attachments/assets/e1edd298-6a1e-44a0-8dcb-7362b178b692" />
+
+---
+
+#### Prompt #4
+Ahora genera el código para ser probado en Swagger correspondiente al diagrama generado con anterioridad. Hazlo en lenguaje C# usando el framework .NET 8.0 y enfocado a ser ejecutado en un IDE como Visual Studio 2022 o Visual Studio Code. Genera un archivo .zip para descargar donde este contenida la carpeta del proyecto. Piensa y analiza el tiempo que sea necesario.
+
+**Respuesta**: 
+
+---
+
+Error durante el análisis [...]
+Analizado [...]
+He creado el prototipo en C# (.NET 8.0) y lo empaqué en un archivo ZIP listo para descargar y abrir en Visual Studio o VS Code.
+
+📦 Descargar `VehicleRegistrationApiProject.zip`
+
+### Qué contiene
+
+-   Proyecto .NET 8.0 con Swagger (Swashbuckle).
+    
+-   Endpoints CRUD para `Vehicle`:
+    
+    -   `GET /api/vehicles`
+        
+    -   `GET /api/vehicles/{plate}`
+        
+    -   `POST /api/vehicles`
+        
+    -   `PUT /api/vehicles/{plate}`
+        
+    -   `DELETE /api/vehicles/{plate}`
+        
+-   Validaciones básicas: placa única y año dentro de un rango razonable.
+    
+-   Almacenamiento en memoria (`InMemoryVehicleService`) — ideal para un prototipo y pruebas en Swagger.
+    
+-   `README.md` con instrucciones de ejecución y un ejemplo de payload.
+    
+
+### Cómo probarlo (resumen)
+
+1.  Descomprime el ZIP.
+    
+2.  Desde la carpeta del proyecto:
+    
+    -   `dotnet restore`
+        
+    -   `dotnet run`
+        
+3.  Abre `https://localhost:5001/swagger/index.html` en tu navegador para usar Swagger UI y probar los endpoints.
+    
+
+Si quieres que:
+
+-   Añada autenticación básica,
+    
+-   Guarde datos en una base real (SQLite/SQL Server),
+    
+-   Genere ejemplos de pruebas en Postman o colecciones de Swagger,
+    
+-   O exporte también el proyecto como `.jpg` (imagen) o realice alguna otra modificación,
+    
+
+dime y lo hago.
 
 ---
