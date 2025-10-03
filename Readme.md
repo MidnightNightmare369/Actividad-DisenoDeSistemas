@@ -88,6 +88,6 @@ Aquí tienes el diagrama de clases UML en formato .png para el sistema de regist
 ---
 **Imagen entregada:**
 
-![Diagrama UML](https://postimg.cc/qgwQQ8S3)
+<img width="255" height="636" alt="uml_registro_vehiculos" src="https://github.com/user-attachments/assets/e1edd298-6a1e-44a0-8dcb-7362b178b692" />
 
 ---
