@@ -162,3 +162,6 @@ Conclusiones
 ---
 
 El desarrollo del prototipo del sistema de registro de vehículos permitió aplicar un proceso completo de diseño con apoyo de IA generativa, desde la definición de la historia de usuario y los requerimientos, hasta la elaboración de diagramas UML y la implementación de un prototipo funcional en .NET 8 con Swagger. Este ejercicio evidenció cómo la integración de metodologías de análisis y herramientas modernas facilita la construcción de soluciones simples, claras y ejecutables en un entorno real de desarrollo.
+
+
+Juan Barrera 
